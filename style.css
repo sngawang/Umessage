@@ -1,0 +1,19 @@
+.navbar{
+    padding: 10px;
+}
+nav{
+    position: fixed;
+}
+.jumbotron{
+    text-align: center;
+}
+li{
+    font-size: 20px;
+}
+.letter{
+    font-family: forte;
+}
+.logo{
+    color: white;
+    font-size: 40px;
+}
