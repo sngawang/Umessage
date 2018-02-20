@@ -17,3 +17,9 @@ li{
     color: white;
     font-size: 40px;
 }
+.nav-item:hover{
+  border-bottom-style: solid;
+  border-color: white;
+  border-bottom-width: medium;
+  transition: 1s;
+}
