@@ -4,6 +4,7 @@
 nav{
     position: fixed;
 }
+
 .jumbotron{
     text-align: center;
 }
@@ -22,7 +23,4 @@ li{
   border-color: white;
   border-bottom-width: medium;
   transition: 1s;
-}
-#signup{
-  display: none;
 }
