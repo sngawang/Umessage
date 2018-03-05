@@ -7,7 +7,7 @@ socketio = SocketIO(app)
 def index():
     return render_template("index.html")
 
-@app.route("/signup")
+@app.route("/signup", methods=["POST","GET"])
 def signup():
     return render_template("signup.html")
 
