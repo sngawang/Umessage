@@ -14,23 +14,65 @@
             <ul class="nav">
                 <li class="nav-item"><a href={{ url_for('index')}}  class="text-white nav-link">About Us</a></li>
                 <li class="nav-item"><a href="#" class="text-white nav-link">Features</a></li>
-                <li class="nav-item"><a href="#" class="text-white nav-link">Community</a></li>
-                <li class="nav-item"><a href={{ url_for('signup')}} class="text-white  nav-link">SignUp/Sign in</a></li>
+                <li class="nav-item"><a href="#" class="text-white nav-link">Sign In</a></li>
             </ul>
         </nav>
-            <div class="container-fulid">
-        <div class="jumbotron center">
-            <h1 class="display-4"><span class="display-3 letter">U</span>message!</h1>
-            <p class="lead">Upcoming messaging app created for students within the school to communicate better</p>
-            <hr class="my-4">
-            <p>Sign up and learn more about how it can help you communite with your classmates.</p>
-            <p class="lead">
-                <a href="#" class="btn btn-primary" role="button">Learn More</a>
-            </p>
-        </div>
-    </div>
-    <script type="text/javascript">
+    <div class="bg-light">
+        <div class="container">
+            <div class="row pt-3">
+              <div class="col">
+                <h1 class="display-4"><span class="display-3 letter">U</span>message!</h1>
+                <p class="lead">Upcoming messaging app created for students within the school to communicate better</p>
+                <hr class="my-4">
+                <p>Sign up and learn more about how it can help you communite with your classmates.</p>
+                <p class="lead">
+                    <a href="#" class="btn btn-primary" role="button">Learn More</a>
+                </p>
+            </div>
+            <div class="col bg-secondary text-white">
+              <div class="form">
+                    <div class="rounded-1 text-gray bg-gray-light py-4 px-4 px-md-3 px-lg-4">
+                      <form class="home-hero-signup js-signup-form" autocomplete="off" action="/signuped" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="nTTdq/tj3BLjoriDK35E43nTzhYO4D0So18GihxYOVNpW/CDiy7bEOo0DrOppa/oZ1zy6nC8ajxeN3E7U0xfMA==">              <dl class="form-group mt-0">
+                          <dt class="input-label">
+                            <label class="form-label f5" for="user[login]">Username</label>
+                          </dt>
+                          <dd>
+                              <input type="text" id="user[login]" class="form-control form-control-lg input-block" placeholder="Pick a username" autofocus="">
+                          </dd>
+                        </dl>
+                        <dl class="form-group">
+                          <dt class="input-label">
+                            <label class="form-label f5" for="user[name]">Name</label>
+                          </dt>
+                          <dd>
+                              <input type="text" id="user[name]" class="form-control form-control-lg input-block js-email-notice-trigger" placeholder="Your name">
+                          </dd>
+                        </dl>
+                        <dl class="form-group">
+                          <dt class="input-label">
+                            <label class="form-label f5" for="user[email]">Email</label>
+                          </dt>
+                          <dd>
+                              <input type="text" id="user[email]" class="form-control form-control-lg input-block js-email-notice-trigger" placeholder="yourname@school.edu">
+                          </dd>
+                        </dl>
+                        <dl class="form-group">
+                          <dt class="input-label">
+                            <label class="form-label f5" for="user[password]">Password</label>
+                          </dt>
+                          <dd>
+                              <input type="password" id="user[password]" class="form-control form-control-lg input-block" placeholder="Create a password">
+                          </dd>
+                        </dl>
+                        <button class="btn btn-primary btn-large f4 btn-block" type="submit">Sign up for Umessage</button>
 
-    </script>
+
+                        </form>
+                  </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </body>
 </html>
